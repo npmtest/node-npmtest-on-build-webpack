@@ -1,6 +1,6 @@
 # npmtest-on-build-webpack
 
-#### test coverage for  [on-build-webpack (v0.1.0)](https://github.com/kossnocorp/on-build-webpack)  [![npm package](https://img.shields.io/npm/v/npmtest-on-build-webpack.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-on-build-webpack) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-on-build-webpack.svg)](https://travis-ci.org/npmtest/node-npmtest-on-build-webpack)
+#### basic test coverage for  [on-build-webpack (v0.1.0)](https://github.com/kossnocorp/on-build-webpack)  [![npm package](https://img.shields.io/npm/v/npmtest-on-build-webpack.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-on-build-webpack) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-on-build-webpack.svg)](https://travis-ci.org/npmtest/node-npmtest-on-build-webpack)
 
 #### Webpack plugin that gives ability to add callback after build
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-on-build-webpack/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-on-build-webpack/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-on-build-webpack/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-on-build-webpack/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-on-build-webpack/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-on-build-webpack/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-on-build-webpack/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-on-build-webpack/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-on-build-webpack/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-on-build-webpack/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-on-build-webpack/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-on-build-webpack/build/coverage.html/index.html)
 
@@ -68,7 +68,8 @@
         "url": "git+https://github.com/kossnocorp/on-build-webpack.git"
     },
     "scripts": {},
-    "version": "0.1.0"
+    "version": "0.1.0",
+    "bin": {}
 }
 ```
 
